@@ -11,13 +11,3 @@
     background-position: center center;
     background-size: cover;
 }
-
-//Mixin (similar a extend con una función más)
-
-@mixin card ($fondoCard) {
-    background-color: $fondoCard;
-    max-width: 20rem;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-}
